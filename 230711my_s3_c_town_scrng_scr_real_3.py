@@ -497,7 +497,7 @@ advertising_plan_li = []
 # ---
 
 #新ロジック。241022
-page_count_num = 200
+page_count_num = 160
 collect_num = page_count_num * 50
 
 if int(sep_num) == 1:
@@ -507,6 +507,9 @@ elif int(sep_num) == 2:
     page_count = page_count_num * (int(sep_num) - 1) + 1
     to_page_count = page_count_num * int(sep_num)
 elif int(sep_num) == 3:
+    page_count = page_count_num * (int(sep_num) - 1) + 1
+    to_page_count = page_count_num * int(sep_num)
+elif int(sep_num) == 4:
     page_count = page_count_num * (int(sep_num) - 1) + 1
     to_page_count = int(total_offer_number) / 50 + 1
 
