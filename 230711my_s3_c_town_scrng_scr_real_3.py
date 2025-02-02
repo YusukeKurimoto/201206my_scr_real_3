@@ -497,7 +497,7 @@ advertising_plan_li = []
 # ---
 
 #新ロジック。241022
-page_count_num = 160
+page_count_num = 190
 collect_num = page_count_num * 50
 
 if int(sep_num) == 1:
